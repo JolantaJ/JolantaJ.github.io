@@ -1,0 +1,30 @@
+
+.task > p {
+    background-color: hotpink;
+}
+
+.class1, .Class2 {
+    background-color: lawngreen;
+
+}
+
+.firstChild p:first-child {
+    background-color: rgb(139, 46, 104);
+}
+.AllChildren p {
+    background-color: lightseagreen;
+}
+
+[type="text"] {
+    background-color: rgb(165, 55, 55);
+}
+
+h4, .second {
+background-color: rgb(116, 82, 89);
+}
+a:hover{
+    color: red;
+}
+a:visited {
+  color: greenyellow;
+}

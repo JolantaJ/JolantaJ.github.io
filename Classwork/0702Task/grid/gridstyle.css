@@ -1,0 +1,47 @@
+.wrapper{
+    display: grid;
+    background-color: white;
+    width: 500px;
+    grid-template-columns: repeat(15, 50px);
+    grid-template-rows: repeat(15, 50px);
+}
+
+
+.item1{
+    background: red;
+    grid-area: 1/1/15/1;
+}
+.item2{
+    background: black;
+    grid-area: 1/2/7/4;
+}
+
+.item3{
+        background: green;
+    grid-area: 1/4/4/14;
+}
+
+
+.item4{
+    background: red;
+    grid-area: 4/4/7/12;
+}
+
+.item5{
+    background: red;
+    grid-area: 7/2/10/2;
+}
+
+.item6{
+    background: darkblue;
+    grid-area: 7/3/10/12;
+}
+
+.item7{
+    background-color: midnightblue;
+    grid-area: 10/2/15/13;
+}
+.item8{
+    background-color: saddlebrown;
+    grid-area: 7/13/15/14;
+}
